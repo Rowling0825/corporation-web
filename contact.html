@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电乐声团</title>
+	<link rel="stylesheet" media="screen" href="styles/basic.css">
+</head>
+<body>
+<header>
+<div>
+	<img src="images/logo1.gif" alt="成电艺术团">
+</div>
+
+<nav>
+    <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="photos.html">Photo</a></li>
+		<li><a href="live.html">Live</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul>
+</nav>	
+</header>
+
+<article>
+<h1>
+	Contact the band
+</h1>
+<form method="post" action="submit.html">
+<fieldset>
+	<p>
+		<label for="name">Name:</label>
+		<!-- placeholder 占位符文本 -->
+		<input type="text" name="name" id="name" placeholder="Your name" required="required" />
+	</p>
+	<p>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" placeholder="Your email address" required="required" />
+	</p>
+	<p>
+		<label for="message">Message:</label>
+		<textarea cols="45" rows="7" name="message" id="message" placeholder="Write your message" required="required"></textarea>
+	</p>
+	<input type="submit" value="Send">
+</fieldset>
+	
+</form>
+
+</article>
+<script type="text/javascript" src="scripts/global.js"></script>
+<script type="text/javascript" src="scripts/modernizr.custom.83973.js"></script>
+<!-- <script type="text/javascript" src="scripts/test.js"></script> -->
+	
+</body>
+</html>

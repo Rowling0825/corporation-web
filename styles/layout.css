@@ -1,0 +1,116 @@
+/*为H5块元素设置默认的样式*/
+section,header,article,nav{
+	display: block;
+}
+/*使用通配选择器吧所有的元素的内外边距设置为0*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 180px auto;
+	background-image: url(../images/background.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	background-position: top left;
+	background-repeat: repeat-x;
+	max-width: 80em;
+	height: 100%;
+	border-radius: 20%;
+}
+header{
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+}
+header nav{
+	background-image: url(../images/navbar.gif);
+	background-size: 100% 100%;
+	background-position: bottom left;
+	background-repeat: repeat-x;
+	border-width: .1em;
+	border-style: solid;
+	border-bottom-width: 0;
+	border-top-width: 0;
+	padding-left: 10%;
+}
+header div{
+	height: 250px;
+	background-image: url(../images/logo.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: bottom left;
+	position: relative;
+	overflow: auto;
+}
+header div img{
+	position: absolute;
+	top: 0;
+	right: 95px;
+}
+
+header nav ul{
+	width: 100%;
+	overflow: hidden;
+	border-left-width: .1em;
+	border-left-style: solid;
+}
+header nav li{
+	display: inline;
+}
+header nav li a{
+	display: block;
+	float: left;
+	padding: .5em 2em;
+	border-right: .1em solid;
+}
+article{
+	border-width: .1em;
+	border-style: solid;
+	border-top-width: 0;
+	padding: 2em 10%;
+	line-height: 1.8em;
+	height: 800px;
+}
+.response{
+	line-height: 2em;
+	font-size:30px;
+}
+#slideshow{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 20%;
+}
+#preview{
+	position: absolute;
+	border-width: 0;
+	outline-width: 0;
+}
+/*#frame{
+position: absolute;
+top: 0;
+z-index: 99;
+opacity: 0;
+border-radius: 20%;
+}
+*/
+/*图片库*/
+#imagegallery li{
+	display: inline;
+}
+
+/*演出安排*/
+td{
+	padding: .5em 3em;
+}
+
+
+/*表单*/
+label{
+	display: block;
+}
+fieldset{
+	border: 0;
+}

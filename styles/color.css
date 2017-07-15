@@ -1,0 +1,86 @@
+body{
+	color:#fb5;
+	background-color: #334;
+}
+a:link{
+	color: #445;
+	background-color: #eb6;
+}
+/* 选择已访问的链接，并设置其样式 */
+a:visited{
+	color: #345;
+	background-color: #eb6;
+}
+a:hover{
+	color: #667;
+	background-color: #fb5;
+}
+/* 选择活动链接，并设置其样式： */
+a:active{
+	color: #778;
+	background-color: #ec8;
+}
+header {
+	color: #ec8;
+	background-color: #789;
+	border-color: #667;
+}
+header nav{
+	color: #455;
+	background-color: #789;
+	border-color: #667;
+}
+article{
+	color:#233;
+	background-color: #edc;
+	border-color: #667;
+}
+header nav ul{
+	border-color: #99a;
+}
+header nav a:link,header nav a:visited{
+	color: #eef;
+	/*背景透明*/
+	background-color: transparent;
+	border-color: #99a;
+}
+header nav a:hover{
+	color: 667;
+	background-color: #eb6;
+}
+header nav a:active{
+	color:#667;
+	background-color: #ec8;
+}
+/*为here类定义样式*/
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+	color: #eef;
+	background-color: #799;
+}
+article img{
+	border-color: #ba9;
+	/*设置点状轮廓的颜色*/
+	outline-color: #dcb;
+}
+#imagegallery a{
+	background-color: transparent;
+}
+
+/*演出*/
+th{
+	color: #edc;
+	background-color: #445;
+}
+tr td{
+	color: #223;
+	background-color: #eb6;
+}
+
+/*表单*/
+/*占位符*/
+input .placeholder{
+	color: grey;
+}
